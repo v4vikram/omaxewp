@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+    "tailwind": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "watch": "browser-sync start --proxy http://localhost/office/php/wordpress/omaxe/ --files 'wp-content/themes/omaxe/**/*.{php,css,js}'"
   },
   "keywords": [],
   "capabilities": {},

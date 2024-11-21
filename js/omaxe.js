@@ -385,3 +385,5 @@ $(document).ready(function () {
     },
   });
 });
+
+console.log("ajax_object",ajax_object)

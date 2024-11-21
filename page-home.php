@@ -1,8 +1,8 @@
 <?php
-get_header()
+get_header();
     ?>
 <!-- section 1 -->
-<section class="banner h-full md:h-[118vh] 2xl:h-[133vh] overflow-hidden" id="homeSection">
+<section class="banner h-full md:h-[118vh] 2xl:h-[133vh] overflow-hidden " id="homeSection">
     <div class="banner-1-bg"></div>
     <img src="<?= get_template_directory_uri() ?>/img/banner-1-long.webp" alt="banner-1"
         class="banner-1 h-screen. w-full max-h-fit z-0 hidden md:block">
